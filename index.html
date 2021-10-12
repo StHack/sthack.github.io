@@ -13,73 +13,153 @@
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
   <script src="https://unpkg.com/feather-icons"></script>
 
-
   <style type="text/css">
-  body{
-    width: 98%;
-    margin-left: 1%;
-    background-color: #eaeaea;
-    background-image: linear-gradient(transparent 0%, transparent 62.5%, #fff 62.5%, #fff 100%),linear-gradient(to right, transparent 0%, transparent 62.5%, #fff 62.5%, #fff 100%);
-    background-size: 8px 8px;
-    background-position: center top;
-  }
+    table {
+      border-collapse: collapse;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      table-layout: fixed;
+    }
 
-  #title-page{
-    margin-top: 10%;
-  }
-  #schedule{
-    margin-top:12%;
-  }
-  #schedule-table{
-    text-align: center;
-  }
-  #footer{
-    background-color: #191919;
-    background-image: linear-gradient(transparent 0%, transparent 62.5%, #232323 62.5%, #232323 100%),linear-gradient(to right, transparent 0%, transparent 62.5%, #232323 62.5%, #232323 100%);
-    background-size: 8px 8px;
-    background-position: center center;
-    color:white;
-  }
-  #footer{
-    margin-top: 2%;
-    text-align: center;
-  }
-  .card{
-    color:black;
-  }
-  p{
-    font-size: 1.5em;
-  }
-  #sponsor-the-event{
-    font-size: 0.75em;
-    background-color: #34495e;
-    color:white;
+    table caption {
+      font-size: 1.5em;
+      margin: .5em 0 .75em;
+    }
 
-  }
-  .partners-box{
-    background-color: white;
-  }
-  .other-line{
-    margin-top: 5%;
-  }
-  #sponsor-the-event .first_line{
-  	margin-top:25%;
-  }
-  #sponsor-the-event a{
-  	color:white;
-  }
-  .talk {
-    font-size:0.8em;
-  }
+    table tr {
+      padding: .35em;
+    }
 
+    table th,
+    table td {
+      padding: .625em;
+      text-align: center;
+    }
 
-</style>
+    table th {
+      font-size: .85em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    @media screen and (max-width: 990px) {
+      table {
+        border: 0;
+      }
+
+      table caption {
+        font-size: 1.3em;
+      }
+      
+      table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      table tr {
+        background-color: #eaeaea;
+        display: block;
+        margin-bottom: .625em;
+      }
+      
+      table td {
+        display: block;
+        font-size: .8em;
+        text-align: right;
+      }
+      
+      .table td {
+        border-top: none;
+      }
+      
+      table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      table td:last-child {
+        border-bottom: 0;
+      }
+    }
+    body{
+      width: 98%;
+      margin-left: 1%;
+      background-color: #eaeaea;
+      background-image: linear-gradient(transparent 0%, transparent 62.5%, #fff 62.5%, #fff 100%),linear-gradient(to right, transparent 0%, transparent 62.5%, #fff 62.5%, #fff 100%);
+      background-size: 8px 8px;
+      background-position: center top;
+    }
+
+    #title-page{
+      margin-top: 10%;
+    }
+    #schedule{
+      margin-top:12%;
+    }
+    #schedule-table{
+      text-align: center;
+    }
+    #footer{
+      background-color: #191919;
+      background-image: linear-gradient(transparent 0%, transparent 62.5%, #232323 62.5%, #232323 100%),linear-gradient(to right, transparent 0%, transparent 62.5%, #232323 62.5%, #232323 100%);
+      background-size: 8px 8px;
+      background-position: center center;
+      color:white;
+    }
+    #footer{
+      margin-top: 2%;
+      text-align: center;
+    }
+    .card{
+      color:black;
+    }
+    p{
+      font-size: 1.5em;
+    }
+    #sponsor-the-event{
+      font-size: 0.75em;
+      background-color: #34495e;
+      color:white;
+
+    }
+    .partners-box{
+      background-color: white;
+    }
+    .other-line{
+      margin-top: 5%;
+    }
+    #sponsor-the-event .first_line{
+      margin-top:25%;
+    }
+    #sponsor-the-event a{
+      color:white;
+    }
+    .talk {
+      font-size:0.8em;
+    }
+  </style>
 <title>Sthack</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Sthack</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-toggle="collapse" 
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -100,13 +180,13 @@
         <li class="nav-item">
           <a class="nav-link" href="https://www.eventbrite.fr/e/billets-sthack-2021-167315018725" target="_blank">Billets</a>
         </li>
-      </div>
-    </nav>
+      </ul>
+    </div>
+  </nav>
 
     <section class="container" id="title-page">
       <div class="row">
         <div class="col-12">
-          <!--         <center> -->
             <h1>Sthack - 0x0a Edition - 10 Years anniversary </h1>
             <h2><i data-feather="calendar"></i>2021 October 15 </h2>
             <h3><i data-feather="map-pin"></i> Bordeaux</h3>
@@ -114,14 +194,12 @@
             <p>Sthack was first held in 2011. The event takes place in Bordeaux and was first an overnight security contest. It was born from the desire of its founders to have a local CTF and to combine security and epicurean lifestyle.</p>
             <p>It now provides 24 hours of an interesting atmosphere for open discussions about security with speakers from all around the world</p>
             <p>Sthack is one of the main security event in Aquitaine (and France :D), with high quality line up of speakers !</p>
-<!--         </center>
--->      </div>
+        </div>
       </div>
       <div class='row'>
         <div class="col-12">
            <center><u style="font-size:2em">A valid sanitary pass will be required</u></center>
         </div>
-         
       </div>
 </section>
 
@@ -136,109 +214,149 @@
   <div class="row">
     <div class="col-12">
       <center>
+        <div style="overflow-x: auto;"> 
         <table class="table" id="schedule-table">
-          <tr>
-            <th>Time</th>
-            <th>Location</th>
-            <th>Title</th>
-            <th>Author</th>
-            <th>Abstract</th>
-          </tr>
-          <tr>
-            <td>9:00 - 9:45</td>
-            <td>CAPC</td>
-            <td>Breakfast</td>
-            <td>Staff</td>
-            <td>Time for cofee, "cannelés" and "chocolatines"</td>
-          </tr>
-          <tr>
-            <td>9:45 - 10:00</td>
-            <td>CAPC</td>
-            <td>Intro</td>
-            <td>Staff</td>
-            <td>We will try to write something :)</td>
-          </tr>
-          <tr>
-            <td>10:00 - 10:45</td>
-            <td>CAPC</td>
-            <td>Keynote</td>
-            <td><a href="https://twitter.com/agixid">Agix</a></td>
-            <td>10 ans de Sthack c'est pas rien !</td>
-          </tr>
-          <tr>
-            <td>10:45 - 11:30</td>
-            <td>CAPC</td>
-            <td>Discovering and exploiting a kernel pool overflow on modern Windows 10</td>
-            <td><a href="https://twitter.com/0xf4b">Fabien Perigaud</a></td>
-            <td>Lors du Pwn2Own Vancouver 2021, l'une des cibles proposées était l'élévation de privilèges sur un système Windows 10 depuis un compte non privilégié (mais de niveau d'intégrité "Medium"), en utilisant une vulnérabilité dans le noyau. Cette présentation vise à présenter la surface d'attaque accessible dans un tel contexte, puis la découverte de la vulnérabilité ayant permis de participer à Pwn2Own et enfin à détailler les différentes étapes d'exploitation pour produire un exploit stable tout en contournant les mécanismes de défense en profondeur, le tout sur Windows 10 20H2 (dernière version à jour lors du concours Pwn2Own).</td>
-          </tr>
 
-          <tr>
-            <td>11:30 - 12:15</td>
-            <td>CAPC</td>
-            <td>Mécanismes de détection de jailbreak, et comment les éviter</td>
-            <td><a href="https://twitter.com/elvanderb">Eloi Benoist-Vanderbeken</a></td>
-            <td>
-              Certaines applications iOS tentent de détecter si elles tournent sur un appareil jailbreaké afin de protéger leurs informations, luter contre les bots ou tout simplement s'assurer qu'elles tournent sur un appareil relativement sécurisé. 
-              Cependant, avoir un appareil jailbreaké c'est pratique pour observer et reverser une application. Les applications mettant en place ces protections rendent le reverse et l'analyse bien plus fastidieuse. 
-              Dans ce talk, nous présenterons d'abord comment les restrictions spécifiques à iOS rendent la tache de reverse plus complexe mais égallement comment cela limite le nombre d'outils pouvant être utilisés pour l'analyse. Puis, nous listerons différentes méthodes disponibles pour détecter le jailbreak. Enfin, nous verrons comment étudier et bypasser une véritable protection avec le fameux framework d'instrumentation dynamique Frida. 
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Location</th>
+              <th scope="col">Title</th>
+              <th scope="col">Author</th>
+              <th scope="col">Abstract</th>
+            </tr>
+          </thead>
 
-
-          <tr>
-            <td>12:15 - 13:45</td>
-            <td>CAPC</td>
-            <td>Drink and food</td>
-            <td>TBD</td>
-            <td>Of course there will be wine !</td>
-          </tr>
-
-
-          <tr>
-            <td>14:00- 14:45</td>
-            <td>CAPC</td>
-            <td>RFID for dummies - par où commencer ?</td>
-            <td><a href="https://twitter.com/ArnC_CarN">ArnC</a></td>
-            <td>Un tour d'horizon global des pièges à éviter lorsqu'on s'intéresse au cartes sans contact. Concepts, Matériel (lecteurs, cartes tags), méthodologie globale, ressources intéressantes, quelques technologies répandues... Ce qu'il vous faut pour gagner du temps, et de l'argent</td>
-          </tr>
-
-          <tr>
-            <td>14:50- 15:35</td>
-            <td>CAPC</td>
-            <td>PHP-FPM local root</td>
-            <td><a href="https://twitter.com/cfreal_">Cfreal_</a></td>
-            <td>C'est du PHP, mais ca n'est pas du web... Dans ce talk nous couvrirons une vulnérabilité 0-day présente depuis 10 ans dans le coeur de PHP, avec pour seule primitive un bug permettant de changer un int32 de zéro à un. Nous parlerons de sa découverte, la primitive engendrée, l'exploitation, et la fiabilisation de l'exploit en condition réelles</td>
-          </tr>
-          <tr>
-            <td>15:35- 15:50</td>
-            <td>CAPC</td>
-            <td>Break</td>
-            <td>Staff</td>
-            <td>Will be time to finish the wine !</td>
-          </tr>
-          <tr>
-            <td>15:50- 16:35</td>
-            <td>CAPC</td>
-            <td>TBD</td>
-            <td>TBD</td>
-            <td>Slot booked, informations are comming</td>
-          </tr>
-          <tr>
-            <td>16:40- 17:25</td>
-            <td>CAPC</td>
-            <td>Rump</td>
-            <td>You</td>
-            <td>Prepare your best rump session !</td>
-          </tr>
-          <tr>
-            <td>20:00 - 8:00</td>
-            <td>Salons de la mairie de Bordeaux</td>
-            <td>CTF</td>
-            <td>Staff</td>
-            <td>Let's have some CTF tasks ! Beers and Food are waiting for you</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td data-label="Time"     >9:00 - 9:45</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Breakfast</td>
+              <td data-label="Author"   >Staff</td>
+              <td data-label="Abstract" >
+                Time for cofee, "cannelés" and "chocolatines"
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >CAPC</td>
+              <td data-label="Location" >9:45 - 10:00</td>
+              <td data-label="Title"    >Intro</td>
+              <td data-label="Author"   >Staff</td>
+              <td data-label="Abstract" >
+                We will try to write something :)
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >10:00 - 10:45</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Keynote</td>
+              <td data-label="Author"   ><a href="https://twitter.com/agixid">Agix</a></td>
+              <td data-label="Abstract" >
+                10 ans de Sthack c'est pas rien !
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >10:45 - 11:30</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Discovering and exploiting a kernel pool overflow on modern Windows 10</td>
+              <td data-label="Author"   ><a href="https://twitter.com/0xf4b">Fabien Perigaud</a></td>
+              <td data-label="Abstract" >
+                Lors du Pwn2Own Vancouver 2021, 
+                l'une des cibles proposées était l'élévation de privilèges sur un système Windows 10 depuis un compte non privilégié (mais de niveau d'intégrité "Medium"), 
+                en utilisant une vulnérabilité dans le noyau. 
+                Cette présentation vise à présenter la surface d'attaque accessible dans un tel contexte, 
+                puis la découverte de la vulnérabilité ayant permis de participer à Pwn2Own et enfin à détailler les différentes étapes d'exploitation pour produire un exploit stable tout en contournant les mécanismes de défense en profondeur, 
+                le tout sur Windows 10 20H2 (dernière version à jour lors du concours Pwn2Own).
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >11:30 - 12:15</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Mécanismes de détection de jailbreak, et comment les éviter</td>
+              <td data-label="Author"   ><a href="https://twitter.com/elvanderb">Eloi Benoist-Vanderbeken</a></td>
+              <td data-label="Abstract" >
+                Certaines applications iOS tentent de détecter si elles tournent sur un appareil jailbreaké afin de protéger leurs informations, 
+                luter contre les bots ou tout simplement s'assurer qu'elles tournent sur un appareil relativement sécurisé. 
+                Cependant, avoir un appareil jailbreaké c'est pratique pour observer et reverser une application. 
+                Les applications mettant en place ces protections rendent le reverse et l'analyse bien plus fastidieuse. 
+                Dans ce talk, 
+                nous présenterons d'abord comment les restrictions spécifiques à iOS rendent la tache de reverse plus complexe mais égallement comment cela limite le nombre d'outils pouvant être utilisés pour l'analyse. 
+                Puis, 
+                nous listerons différentes méthodes disponibles pour détecter le jailbreak. 
+                Enfin, nous verrons comment étudier et bypasser une véritable protection avec le fameux framework d'instrumentation dynamique Frida. 
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >12:15 - 13:45</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Drink and food</td>
+              <td data-label="Author"   >TBD</td>
+              <td data-label="Abstract" >
+                Of course there will be wine !
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >14:00 - 14:45</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >RFID for dummies - par où commencer ?</td>
+              <td data-label="Author"   ><a href="https://twitter.com/ArnC_CarN">ArnC</a></td>
+              <td data-label="Abstract" >
+                Un tour d'horizon global des pièges à éviter lorsqu'on s'intéresse au cartes sans contact. 
+                Concepts, Matériel (lecteurs, cartes tags), méthodologie globale, ressources intéressantes, 
+                quelques technologies répandues... Ce qu'il vous faut pour gagner du temps, et de l'argent
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >14:50 - 15:35</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >PHP-FPM local root</td>
+              <td data-label="Author"   ><a href="https://twitter.com/cfreal_">Cfreal_</a></td>
+              <td data-label="Abstract" >
+                C'est du PHP, mais ca n'est pas du web... 
+                Dans ce talk nous couvrirons une vulnérabilité 0-day présente depuis 10 ans dans le coeur de PHP, 
+                avec pour seule primitive un bug permettant de changer un int32 de zéro à un. 
+                Nous parlerons de sa découverte, la primitive engendrée, 
+                l'exploitation, et la fiabilisation de l'exploit en condition réelles</td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >15:35 - 15:50</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Break</td>
+              <td data-label="Author"   >Staff</td>
+              <td data-label="Abstract" >
+                Will be time to finish the wine !
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >15:50 - 16:35</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >TBD</td>
+              <td data-label="Author"   >TBD</td>
+              <td data-label="Abstract" >
+                Slot booked, informations are comming
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >16:40 - 17:25</td>
+              <td data-label="Location" >CAPC</td>
+              <td data-label="Title"    >Rump</td>
+              <td data-label="Author"   >You</td>
+              <td data-label="Abstract" >
+                Prepare your best rump session !
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Time"     >20:00 - 8:00</td>
+              <td data-label="Location" >Salons de la mairie de Bordeaux</td>
+              <td data-label="Title"    >CTF</td>
+              <td data-label="Author"   >Staff</td>
+              <td data-label="Abstract" >
+                Let's have some CTF tasks ! Beers and Food are waiting for you
+              </td>
+            </tr>
+          </tbody>
         </table>
+        </div>
       </center>
     </div>
   </div>
@@ -275,69 +393,71 @@
     <div class="col-12">
       <center>
           <div class="row justify-content-between" id="partners-table">
-            <div class="col-3 partners-box" onclick="window.location.href='/Sthack_Sponsoring.pdf'"  id="sponsor-the-event">
+
+            <div class="col-lg-3 col-md-12 partners-box" onclick="window.location.href='/Sthack_Sponsoring.pdf'"  id="sponsor-the-event">
               <p class="align-middle first_line">SPONSOR THE EVENT !</p>
               <p class="align-middle"><a href="/Sthack - Sponsoring Borchure.pdf">Download the partnership kit</a></p>
             </div>
 
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://advens.fr/">
                 <img style="margin-top:10%;" class="img-fluid center-block" src="http://res.cloudinary.com/dkgais7sh/image/upload/v1556287475/Logo_Advens.png"/>
               </a>
             </div>
 
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://www.lexfo.fr/">
                 <img style="margin-top:7%;" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1558546592/3794a93fe7df0122ff580ccf2a7532614bfd4b5a_tmzcqg.png"/>
               </a>
             </div>
 
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://synacktiv.com/">
                 <img style="margin-top:0%; width: 80%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1630490102/D-ZIPUBWwAE9CUZ_emqgnj.jpg"/>
               </a>
-            </div>            
+            </div>     
+
           </div>
           <div class="row justify-content-between" id="partners-table">
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://twitter.com/ManoMano_Tech">
                 <img style="margin-top:0%; width: 70%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1633703932/MM_LOGO_MMTECH_FINAL-02_y5dhyz.jpg"/>
               </a>
             </div>
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://www.randorisec.fr/">
                 <img style="margin-top:10%; width: 80%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1632211091/0On-X8-3_p42p7z.jpg"/>
               </a>
             </div>
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://www.dbm-partners.com/">
                 <img style="margin-top:12%; width: 80%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1632211200/DBM_LOGO_300DPI2lines_oavmlv.png"/>
               </a>
             </div>
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://www.cloudflare.com/">
                 <img style="margin-top:0%; width: 80%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1632211454/Cloudflare-Logo_djvcxe.png"/>
               </a>
             </div>
           </div>
           <div class="row justify-content-between" id="partners-table">
-             <div class="col-3 partners-box">
+             <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://www.digital.security/">
                 <img style="margin-top:20%; width: 70%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1632211747/Atos-et-DS-noir_nahwtj.png"/>
               </a>
             </div>
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://carrefour.fr/">
                 <img style="margin-top:0%; width: 90%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1633524609/GROUPE_CARREFOUR_Logo_rgb_1_ekcwbs.png"/>
               </a>
             </div>
-            <div class="col-3 partners-box">
+            <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://orangecyberdefense.com/fr/">
                 <img style="margin-top:15%; width: 90%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1633461726/OCD_Logo_Stacked_RGB_Black_1_qxe8o6.png"/>
               </a>
             </div>
 
-             <div class="col-3 partners-box">
+             <div class="col-lg-3 col-md-12 partners-box">
               <a href="https://bordeaux.fr/">
                 <img style="margin-top:10%; width: 60%" class="img-fluid center-block" src="https://res.cloudinary.com/dkgais7sh/image/upload/v1632346133/logo_mairie_bordeaux_1_fx3bs9.png"/>
               </a>
@@ -348,13 +468,12 @@
   </div>
 </section>
 
-
 <section class="container" id="footer">
   <div class="row">
-    <div class="col-6">
-      <h4>Address</h4>
+    <div class="col-lg-6 col-md-12 mb-4">
+      <h4 class="mb-2 mt-2">Address</h4>
       <div class="row justify-content-between">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 mb-2">
           <div class="card">
           	<a href="https://g.page/CAPCmusee?share">
             <div class="card-body">
@@ -365,7 +484,8 @@
             </div>
           </div>
         </div>
-        <div class="col-5">
+
+        <div class="col-lg-6 col-md-12 mb-2">
           <div class="card">
             <a href="https://goo.gl/maps/sS4V5eVtpoRvXf7x6">
             <div class="card-body">
@@ -377,28 +497,27 @@
           </div>
         </div>
       </div>
-
     </div>
-    <div class="col-6">
+
+    <div class="col-lg-6 col-md-12">
       <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12">
           <h4>Contact Us</h4>
-        </hr>
-        <p>staff@sthack.fr</p>
-        <p><i data-feather="twitter"></i> <a href="https://twitter.com/sth4ck">@sth4ck</a></p>
-        <p></p>
+          </hr>
+          <p>staff@sthack.fr</p>
+          <p><i data-feather="twitter"></i> <a href="https://twitter.com/sth4ck">@sth4ck</a></p>
+          <p></p>
         </div>
-        <div class="col-6">
+
+        <div class="col-lg-6 col-md-12">
           <h4>Credits</h4>
-        <p>Website : <a href="https://twitter.com/shoxxdj">@shoxxdj</a></p>
+          <p>Website : <a href="https://twitter.com/shoxxdj">@shoxxdj</a></p>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
-<script>feather.replace()</script>
+  <script>feather.replace()</script>
 </body>
 </html>
 
