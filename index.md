@@ -23,7 +23,7 @@ hero:
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-‍Sthack was first held in 2011. The event takes place in Bordeaux and was first an overnight security contest. It was born from the desire of its founders to have a local CTF and to combine security and epicurean lifestyle.
+Sthack was first held in 2011. The event takes place in Bordeaux and was first an overnight security contest. It was born from the desire of its founders to have a local CTF and to combine security and epicurean lifestyle.
 
 It now provides 24 hours of an interesting atmosphere for open discussions about security with speakers from all around the world.
 
