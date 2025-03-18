@@ -40,5 +40,13 @@ At Sthack, teams are made up of 5 members max which fight for 12 hours. The poin
 
 [Sponsor the event]()
 
-|     |     |     |
-| --- | --- | --- |
+<div class="table-sponsors">
+
+|                                           |                                       |                                        |
+| ----------------------------------------- | ------------------------------------- | -------------------------------------- |
+| ![orange](img/Orange_cyberdefense.png)    | ![Betclic](img/Logo_Betclic_2019.png) | ![Cloudflare](img/Cloudflare_Logo.png) |
+| ![Nystek](img/nystek.png)                 | ![Randorisec](img/randorisec.png)     | ![Synacktiv](img/synacktiv.png)        |
+| ![Carrefour](img/Carrefour-Logo.png)      | ![Quarkslab](img/QUARKSLAB_LOGO.png)  | ![Marl](img/marl.jpeg)                 |
+| ![hack4values](img/hack4values_logo.jpeg) |                                       |                                        |
+
+</div>
