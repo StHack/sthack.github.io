@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: alt
       text: Tickets
-      link: http://mercide.fr/
+      link: https://www.helloasso.com/associations/hackabdx/evenements/sthack-2025
     - theme: alt
       text: Program
       link: /editions/2025/
