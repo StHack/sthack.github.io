@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: edition
 ---
 
 # 2025 edition !
@@ -42,11 +42,12 @@ At Sthack, teams are made up of 5 members max which fight for 12 hours. The poin
 
 <div class="table-sponsors">
 
-|                                           |                                       |                                        |
-| ----------------------------------------- | ------------------------------------- | -------------------------------------- |
-| ![orange](img/Orange_cyberdefense.png)    | ![Betclic](img/Logo_Betclic_2019.png) | ![Cloudflare](img/Cloudflare_Logo.png) |
-| ![Nystek](img/nystek.png)                 | ![Randorisec](img/randorisec.png)     | ![Synacktiv](img/synacktiv.png)        |
-| ![Carrefour](img/Carrefour-Logo.png)      | ![Quarkslab](img/QUARKSLAB_LOGO.png)  | ![Marl](img/marl.jpeg)                 |
-| ![hack4values](img/hack4values_logo.jpeg) |                                       |                                        |
+|                                                        |                                                       |                                                               |
+| ------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------- |
+| ![orange](img/Orange_cyberdefense.png)                 | ![Betclic](img/Logo_Betclic_2019.png)                 | ![Cloudflare](img/Cloudflare_Logo.png)                        |
+| ![Nystek](img/nystek.png)                              | ![Randorisec](img/randorisec.png)                     | ![Synacktiv](img/synacktiv.png)                               |
+| ![Carrefour](img/Carrefour-Logo.png)                   | ![Quarkslab](img/QUARKSLAB_LOGO.png)                  | ![Marl](img/marl.jpeg)                                        |
+| ![hack4values](img/hack4values_logo.jpeg)              | ![Believe](img/logo-believe-black.png)                | ![https://www.epsilon-sec.com/](img/epsilon_full_320_132.png) |
+| ![https://www.campuscyber-na.fr/](img/cybercampus.png) | ![https://www.cdiscount.com/](img/logo_cdiscount.png) |                                                               |
 
 </div>
