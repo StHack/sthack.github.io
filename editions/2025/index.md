@@ -38,12 +38,12 @@ At Sthack, teams are made up of 5 members max which fight for 12 hours. The poin
 
 <div class="table-sponsors">
 
-|                                                        |                                                       |                                                               |
-| ------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------- |
-| ![orange](img/Orange_cyberdefense.png)                 | ![Betclic](img/Logo_Betclic_2019.png)                 | ![Cloudflare](img/Cloudflare_Logo.png)                        |
-| ![Nystek](img/nystek.png)                              | ![Randorisec](img/randorisec.png)                     | ![Synacktiv](img/synacktiv.png)                               |
-| ![Carrefour](img/Carrefour-Logo.png)                   | ![Quarkslab](img/QUARKSLAB_LOGO.png)                  | ![Marl](img/marl.jpeg)                                        |
-| ![hack4values](img/hack4values_logo.jpeg)              | ![Believe](img/logo-believe-black.png)                | ![https://www.epsilon-sec.com/](img/epsilon_full_320_132.png) |
-| ![https://www.campuscyber-na.fr/](img/cybercampus.png) | ![https://www.cdiscount.com/](img/logo_cdiscount.png) |                                                               |
+|                                                                                                             |                                                                                               |                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <a href="https://www.orangecyberdefense.com/fr/" target="_blank">![orange](img/Orange_cyberdefense.png)</a> | <a href="https://www.betclic.fr/" target="_blank">![Betclic](img/Logo_Betclic_2019.png)</a>   | <a href="https://www.cloudflare.com/" target="_blank">![Cloudflare](img/Cloudflare_Logo.png)</a>        |
+| <a href="https://www.nystek.com/" target="_blank">![Nystek](img/nystek.png)</a>                             | <a href="https://www.randorisec.fr/" target="_blank">![Randorisec](img/randorisec.png)</a>    | <a href="http://synacktiv.com/" target="_blank">![Synacktiv](img/synacktiv.png)</a>                     |
+| <a href="https://www.carrefour.fr/" target="_blank">![Carrefour](img/Carrefour-Logo.png)</a>                | <a href="https://www.quarkslab.com/" target="_blank">![Quarkslab](img/QUARKSLAB_LOGO.png)</a> | <a href="https://marl-ds.com/" target="_blank">![Marl](img/marl.jpeg)</a>                               |
+| <a href="https://hack4values.eu/" target="_blank">![hack4values](img/hack4values_logo.jpeg)</a>             | <a href="https://www.believe.com/" target="_blank">![Believe](img/logo-believe-black.png)</a> | <a href="https://www.epsilon-sec.com/" target="_blank">![Epsilon Sec](img/epsilon_full_320_132.png)</a> |
+| <a href="https://www.campuscyber-na.fr/">![Cybercampus](img/cybercampus.png)</a>                            | <a href="https://www.cdiscount.com/" target="_blank">![Cdiscount](img/logo_cdiscount.png)</a> | <a href="https://www.landh.tech/" target="_blank">![Lupin & Holmes](img/landh.svg)</a>                  |
 
 </div>
