@@ -24,3 +24,11 @@ td
     /* Ajuste selon tes besoins */
     margin: 0 auto;
 }
+
+
+.table-sponsors table img {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+}

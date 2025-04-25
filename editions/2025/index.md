@@ -1,7 +1,3 @@
----
-layout: edition
----
-
 # 2025 edition !
 
 | Conferences |           CTF           |
