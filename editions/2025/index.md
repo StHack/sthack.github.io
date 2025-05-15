@@ -27,12 +27,12 @@ Program is under construction :) come back soon !
 - Time : 10:00 - 10:15
 - Infos :
 
-### Rétro-ingénierie de code Objective-C
+### Demystifying Objective-C internals
 
 - Location : Cité du vin
 - Speaker : Victor Cutillas
 - Time : 10:20 - 11:05
-- Infos :
+- Infos : Reverse engineering iOS userland code may seem intimidating but worry not, Objective-C and its runtime are your friends! This talk aims to give iOS newcomers the keys to efficiently reverse engineer Objective-C implementations through real-world examples. Recovering data structures, object methods & variable types will become your new hobby ;) An IDA plugin is also presented to improve analysis experience
 
 ### Reversing modern mobile games
 
@@ -78,12 +78,12 @@ Program is under construction :) come back soon !
 - Time : 15:40 - 16:25
 - Infos : In 2023 Mandiant released Permhash, an extensible framework to hash declared permissions to empower researchers to perform clustering, hunting, and pivoting. Permhash is currently applied to over 29 million samples. Since its release I have been using Permhash to help identify groups of functionality that are suspicious. I would like to share one highly interesting and novel permhash investigation that led to the identification of an active Android-based credential theft campaign targeting users associated with a South Asia Government and the Financial Sector. Using Permhash to perform this clustering, we identified this new malware family: SILENTSTEP. SILENTSTEP is an Android Package (APK) credential theft malware family that uses SMS for command and control. This research will include how Mandiant has closely tracked the evolutions of SILENTSTEP over the past three months and will dive into the specifics of these technical advancements - demonstrating how detection in depth can be applied to allow for persistent pursuit.
 
-### Tesla Wallconnector
+### Attaquer le Tesla Wall Connector via son connecteur de port de charge
 
 - Location : Cité du vin
-- Speaker :
+- Speaker : David Berard
 - Time : 16:25 - 17:10
-- Infos : -->
+- Infos : Cette présentation décrit la méthode d’attaque utilisée lors de la compétition Pwn2Own Automotive Tokyo 2025 pour compromettre un chargeur Tesla Wall Connector en exploitant via son de port de charge. Elle débute par une explication du fonctionnement d’un chargeur de véhicule électrique et des différents signaux impliqués. Tesla utilise un protocole de données bidirectionnel propriétaire permettant la communication entre le Wall Connector et les véhicules de la marque ; ce protocole sera détaillé. Une vulnérabilité logique permettant l’exécution de code arbitraire sur l’appareil sera présentée, suivie de la conception d’un équipement dédié à la communication et à l’exploitation de cette vulnérabilité. La présentation s’achèvera par une évaluation des impacts et des implications de cette faille.
 
 ### RUMPS
 
