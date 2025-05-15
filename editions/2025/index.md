@@ -19,48 +19,40 @@ Program is under construction :) come back soon !
 - Speaker : Cannelés & Café
 - Time : 9:00 - 9:45
 - Infos : :)
-<!--
 
 ### Keynote
 
 - Location : Cité du vin
 - Speaker : Jeremy Fetiveau
-- Time :
+- Time : 10:00 - 10:15
 - Infos :
 
 ### Rétro-ingénierie de code Objective-C
 
 - Location : Cité du vin
-- Speaker :
-- Time :
+- Speaker : Victor Cutillas
+- Time : 10:20 - 11:05
 - Infos :
 
 ### Reversing modern mobile games
 
 - Location : Cité du vin
 - Speaker : Thomas WEBER
-- Time :
+- Time : 11:10 - 11:40
 - Infos : A case study of reversing a recent mobile game
 
 ### Look at the Windows named pipe
 
 - Location : Cité du vin
 - Speaker : Thomas Borot
-- Time :
+- Time : 11:45 - 12:15
 - Infos :
 
-### (Pause Déjeuner)
+### (Lunch)
 
 - Location : TBD
 - Speaker :
 - Time : 12:15 - 14:00
-- Infos :
-
-### A look at the security model of the Trezor Safe family
-
-- Location : Cité du vin
-- Speaker : Marion Lafon & Charles Christen
-- Time : 11:45 - 12:05
 - Infos :
 
 ### Le risque de surveillance dans nos démocraties
@@ -70,25 +62,34 @@ Program is under construction :) come back soon !
 - Time : 14:00 - 14:45
 - Infos : Une présentation globale des dispositifs de surveillance en France et des risques qu'ils présentent pour nos libertés fondamentales.
 
+### A look at the security model of the Trezor Safe family
+
+- Location : Cité du vin
+- Speaker : Marion Lafon & Charles Christen
+- Time : 14:50 - 15:20
+- Infos :
+
+### Small break
+
 ### Pivoting on Evolutions
 
 - Location : Cité du vin
 - Speaker : Jared Wilson
-- Time : 14:50 - 15:35
+- Time : 15:40 - 16:25
 - Infos : In 2023 Mandiant released Permhash, an extensible framework to hash declared permissions to empower researchers to perform clustering, hunting, and pivoting. Permhash is currently applied to over 29 million samples. Since its release I have been using Permhash to help identify groups of functionality that are suspicious. I would like to share one highly interesting and novel permhash investigation that led to the identification of an active Android-based credential theft campaign targeting users associated with a South Asia Government and the Financial Sector. Using Permhash to perform this clustering, we identified this new malware family: SILENTSTEP. SILENTSTEP is an Android Package (APK) credential theft malware family that uses SMS for command and control. This research will include how Mandiant has closely tracked the evolutions of SILENTSTEP over the past three months and will dive into the specifics of these technical advancements - demonstrating how detection in depth can be applied to allow for persistent pursuit.
 
 ### Tesla Wallconnector
 
 - Location : Cité du vin
 - Speaker :
-- Time : 15:40 - 16:25
+- Time : 16:25 - 17:10
 - Infos : -->
 
 ### RUMPS
 
 - Location : Cité du vin
 - Speaker : You
-- Time : RUMPS
+- Time : 17:15 - 18
 - Infos : Prepare your best rump !
 
 ### CTF Night
