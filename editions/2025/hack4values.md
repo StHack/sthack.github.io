@@ -120,7 +120,7 @@ Les plateformes de donations suivantes **ne sont pas couvertes** par ce Bug Boun
 
 ## Récompenses
 
-Une récompense unique sera décernée à l'équipe gagnante de ce Bug Bounty H4V dans la nuit du CTF le 24 mai.
+Une récompense unique sera décernée à l'équipe gagnante de ce Bug Bounty H4V dans la nuit du CTF le 23 mai.
 
 ## Support
 
