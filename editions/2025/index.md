@@ -5,6 +5,8 @@
 |  9h - 18h   |        20h - 6h         |
 | Cité du vin | Les salons de la mairie |
 
+[Programme Hack4Values](/editions/2025/hack4values)
+
 ## CFP
 
 CFP is open ! Submit your talks : staff[at]sthack[dot]fr
