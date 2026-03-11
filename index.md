@@ -4,16 +4,16 @@ layout: home
 
 hero:
   name: "Sthack"
-  text: "23/05/2025"
+  text: "29/05/2026"
   tagline: "Sthack was first held in 2011. The event takes place in Bordeaux and was first an overnight security contest. It was born from the desire of its founders to have a local CTF and to combine security and epicurean lifestyle."
   video: "https://www.youtube.com/embed/9dX6rO-u0Ms?autoplay=1&mute=1&loop=1&playlist=9dX6rO-u0Ms"
   actions:
     - theme: alt
       text: Tickets
-      link: https://www.helloasso.com/associations/hackabdx/evenements/sthack-2025
+      link: #
     - theme: alt
       text: Program
-      link: /editions/2025/
+      link: /editions/2026/
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

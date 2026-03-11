@@ -2,6 +2,9 @@
 ---
 
 # Past editions
+## 2025 
+
+- Videos will be uploaded soon
 
 ## 2024
 
