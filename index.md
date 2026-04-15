@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: alt
       text: Tickets
-      link: #
+      link: https://www.helloasso.com/associations/hackabdx/evenements/sthack-2026
     - theme: alt
       text: Program
       link: /editions/2026/
