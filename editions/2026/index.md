@@ -60,7 +60,7 @@ At Sthack, teams are made up of 5 members max which fight for 12 hours. The poin
 
 ## Sponsors
 
-[Sponsor the event](./Sthack%20-%20Sponsoring%202026.pdf)
+[Sponsor the event](/Sthack%20-%20Sponsoring%202026.pdf)
 
 <div class="table-sponsors">
 
