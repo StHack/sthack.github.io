@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Sthack",
   description: "Sthack was first held in 2011. The event takes place in Bordeaux and was first an overnight security contest. It was born from the desire of its founders to have a local CTF and to combine security and epicurean lifestyle.",
+  head: [['link',{rel:'icon',href:'/favicon.ico'}]],
   themeConfig: {
     outline: false,
     aside: false,
