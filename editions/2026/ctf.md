@@ -1,6 +1,6 @@
 # CTF 2026
 
-Depuis quelques années les modèles d'IA se développent à grande échelle. Tout d'abord, nous avons accueilli ces outils avec un regard curieux, puis amusé. En tant que Hackers, nous apprécions les outils qui sont orientés _"gain de temps"_ et _"efficacité"_ voire _"contournement"_. Nous avons appris à les utiliser rapidement, et à en découvrir les limites.
+Depuis quelques années les modèles d'IA se développent à grande échelle. Tout d'abord, nous avons accueilli ces outils avec un regard curieux, puis amusés. En tant que Hackers, nous apprécions les outils qui sont orientés _"gain de temps"_ et _"efficacité"_ voire _"contournement"_. Nous avons appris à les utiliser rapidement, et à en découvrir les limites.
 
 Ce qui était un amusement jusqu'en 2025 est devenu une source d'inquiétude l'année suivante, partagée par de nombreux organisateurs de CTF.
 
@@ -13,7 +13,7 @@ En tant qu'organisateur de CTF, nous proposons une épreuve permettant aux parti
 
 Nous pensons que l'esprit initial d'un CTF s'articule autour de valeurs claires, bien que tacites depuis le début, et partagées par tout le monde : apprendre, découvrir des techniques pointues ou de niche, et bien sûr, partager. Créer un moment social pour nous, les nerds.
 
-**Fort de nos expériences personnelles, nous considérons que les mécanismes de "résolution automatique" proposés par les LLM actuels ne sont pas compatibles avec l'apprentissage "par la pratique".**
+**Forts de nos expériences personnelles, nous considérons que les mécanismes de "résolution automatique" proposés par les LLM actuels ne sont pas compatibles avec l'apprentissage "par la pratique".**
 
 Notre intention est de préserver l'esprit du CTF tel que nous l'avons connu, que nous estimons **mis en danger par l'impact de l'IA au sens large**. Autant en tant que _challengers_ que _Chall Makers_, nous croyons voir devant nos yeux la disparition des valeurs du CTF. En tant qu'organisateurs, nous ne souhaitons pas organiser une course d'IA.
 
@@ -30,12 +30,12 @@ TLDR :
 Le format du CTF Sthack 2026 sera donc un "CTF No Competition"
 
 - Pas de scoreboard, pas de notion de point à la résolution d'un challenge.
-- Pas de récompenses au score ou rapidité pendant le CTF, mais distribuées sur d'autres critères
+- Pas de récompense au score ou rapidité pendant le CTF, mais distribuées sur d'autres critères
 - On garde les teams, les challenges, l'interface web de validation et le reste du format Jeopardy
 
 ### Scoreboard
 
-Cette décision est la plus symbolique. Nous ne mettrons pas en place de scoreboard ni de classement. Ceci casse un côté de la dynamique "compétitive". En impactant cet aspect, nous privilégions le temps En revanche, cela nous permettra de privilégier le temps apporté à la pédagogie, de proposer un accompagnement plus juste et basé sur la confiance. Le temps imparti pour résoudre les challenges reste le même, mais le défaut de pression lié aux points doit permettre aux joueurs de prendre le temps de comprendre ce qu'ils font plutôt que de céder à la tentation d'une résolution automatique par IA.
+Cette décision est la plus symbolique. Nous ne mettrons pas en place de scoreboard ni de classement. Ceci casse un côté de la dynamique "compétitive". En impactant cet aspect, nous privilégions le temps. En revanche, cela nous permettra de privilégier le temps apporté à la pédagogie, de proposer un accompagnement plus juste et basé sur la confiance. Le temps imparti pour résoudre les challenges reste le même, mais le défaut de pression lié aux points doit permettre aux joueurs de prendre le temps de comprendre ce qu'ils font plutôt que de céder à la tentation d'une résolution automatique par IA.
 
 ### Récompenses
 
