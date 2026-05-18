@@ -36,7 +36,7 @@ Conferences location : Cité du vin.
 
 - Speaker : BlackWasp
 - Time : 11:15 - 12:00
-- Infos :
+- Infos : Les EDR modernes ne se contentent plus de hooker ntdll : ils inspectent désormais la pile d'appel au moment des syscalls sensibles, à la recherche d'adresses de retour incohérentes, comme des régions exécutables non backées par un fichier sur disque, signature classique d'un shellcode injecté. Et si la pile pouvait être masquée ?
 
 ### (Lunch)
 
