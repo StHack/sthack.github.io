@@ -127,4 +127,13 @@ Compromettre Active Directory n’est plus systématiquement le meilleur chemin 
 
 <div class="table-sponsors">
 
+|                                                                                                     |                                                                                                             |                                                                                                |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| <a href="https://www.cultura.com/" target="_blank">![Cultura](img/cultura.png)</a>                  | <a href="https://www.orangecyberdefense.com/fr/" target="_blank">![orange](img/Orange_cyberdefense.png)</a> | <a href="https://www.believe.com/" target="_blank">![Believe](img/believe.png)</a>             |
+| <a href="https://www.epsilon-sec.com/" target="_blank">![Epsilon](img/epsilon_full_320_132.png)</a> | <a href="https://www.nystek.com/" target="_blank">![Nystek](img/nystek.png)</a>                             | <a href="https://www.quarkslab.com/" target="_blank">![Quarkslab](img/QUARKSLAB_LOGO.png)</a>  |
+| <a href="https://www.randorisec.fr/" target="_blank">![Randorisec](img/randorisec.png)</a>          | <a href="https://www.synacktiv.com/" target="_blank">![Synacktiv](img/synacktiv.png)</a>                    | <a href="https://www.betclic.fr/" target="_blank">![Betclic](img/logobetclic.png)</a>          |
+| <a href="https://www.cdiscount.com/" target="_blank">![Cdiscount](img/logo_cdiscount.png)</a>       | <a href="https://www.marl-ds.com/" target="_blank">![MARL](img/marl.jpeg)</a>                               | <a href="https://www.adista.fr/" target="_blank">![Adista](img/adista.png)</a>                 |
+| <a href="https://www.devensys.com/" target="_blank">![Devensys](img/devensys.png)</a>               | <a href="https://cefcys.fr/" target="_blank">![CEFCYS](img/cefcys.jpeg)</a>                                 | <a href="https://hack4values.eu/" target="_blank">![Hack4Values](img/hack4values_logo.png)</a> |
+|                                                                                                     | <a hfre="https://www.bordeaux.fr/" target="_blank">![Bordeaux Métropole"](img/bordeaux.png)</a>             |                                                                                                |
+
 </div>
